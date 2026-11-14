@@ -12,6 +12,7 @@ export default function Detail() {
   return (
     <View style={styles.container}>
       <Image
+        testID="artist-image"
         style={styles.image}
         source={{ uri: artist_data.image as string }}
       />

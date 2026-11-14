@@ -87,7 +87,7 @@ export default function Register() {
         });
     }
 
-    return [
+    return (
         <View style={styles.container}>
             <Button
                 title="Atrás"
@@ -126,7 +126,7 @@ export default function Register() {
             />
 
         </View>
-    ];
+    );
 }
 
 const styles = StyleSheet.create({

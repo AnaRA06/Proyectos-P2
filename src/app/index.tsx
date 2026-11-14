@@ -58,6 +58,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
         <Image
+            testID="welcome-image"
             source={require('./welcome.avif')}
             style={styles.image}
         />
